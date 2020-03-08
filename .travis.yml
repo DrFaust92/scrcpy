@@ -1,6 +1,10 @@
 language: android
 install: true
 
+env:
+  - ANDROID_HOME=~/android/sdk
+
+
 os: linux
 dist: trusty
 jdk: oraclejdk8
