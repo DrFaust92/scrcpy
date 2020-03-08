@@ -4,6 +4,8 @@ install: true
 env:
   - ANDROID_HOME=~/android/sdk
 
+before_install:
+    - yes | sdkmanager "platforms;android-27"
 
 os: linux
 dist: trusty
